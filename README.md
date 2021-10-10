@@ -8,20 +8,10 @@
 
 
 
-public static void clock(){
-    LocalDateTime now = LocalDateTime.now();
-    int nowSec=0;
-    while(true){
-        now = LocalDateTime.now();
-        int hour = now.getHour();
-        int minute = now.getMinute();
-        int second = now.getSecond();
-        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
-        if(nowSec == second){
-
-        }
-        else {
-            System.out.println(time);
-            nowSec= second;
-        }
+ public static int[] reverseArray(int[] array) {
+    int[] reverseArray = new int[array.length];
+    for (int i =reverseArray.length - 1; i >= 0; i--) {
+      System.out.println(reverseArray[i])
     }
+    return reverseArray;
+}
