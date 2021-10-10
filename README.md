@@ -3,7 +3,7 @@
 ### array-reverse
 ------------------------------------------------------------------------
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/array-reverse/class1.jpg?raw=true)
 
 
 
