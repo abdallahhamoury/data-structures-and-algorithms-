@@ -14,3 +14,24 @@ create a for loop with number of iterations equal to new array's length
 add the entered value at index position, then continue adding the rest of the elements
 return new array
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+public int[] center(int[] inputs, int value) {
+  int srdDin = 0;
+  int[] newArr = new int [inputs.length+1];
+  if(inputs%2 == 0) {
+    srdDin = inputs.length/2;
+  }else {
+    srdDin = (inputs.length/1)2;
+  }
+  for (int i=0; i<inputs; i++) {
+    if (i=srdDin){
+      newArr[] = value;
+    }else if(i<srdDin){
+      newArr[i]=inputs;
+    }else{
+      newArr[i]= inputs[i-1];
+    }
+    return newArr;
+  }
+}
