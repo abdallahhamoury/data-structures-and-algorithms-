@@ -6,4 +6,4 @@
 code class        | link
 ------------      | -------------
 array-reverse     | [link](code1)
-array-isert-shift | [link]()
+array-isert-shift | [link](code2)
