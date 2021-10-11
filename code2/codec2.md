@@ -2,8 +2,15 @@
 Write a function called i which takes in an array and a value to be added. , return an array with the new value added at the middle index
 
 ## Whiteboard Process
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/main/code2/codec2.png?raw=true)
 
 
 ## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+Declare new variable to hold entered array length
+create new array with length equal to entered array's length+1
+define new variable for index position where we want to add entered value equals to (entered array's length/2) if even and
+create a for loop with number of iterations equal to new array's length
+add the entered value at index position, then continue adding the rest of the elements
+return new array
+
