@@ -3,7 +3,9 @@
 
 
 
-code class        | link
-------------      | -------------
-array-reverse     | [link](code1)
-array-isert-shift | [link](code2)
+code class              | link
+------------            | -------------
+array-reverse           | [link](code1)
+array-isert-shift       | [link](code2)
+array-binary-search     | [link](code3)
+                        | [link]()
