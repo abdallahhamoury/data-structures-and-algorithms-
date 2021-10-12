@@ -5,4 +5,5 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 ![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/main/code3/code3.jpg?raw=true)
 
 ## Approach & Efficiency
-Declare new variable to hold entered array length create new array with length equal to entered array's length+1 define new variable for index position where we want to add entered value equals to if even and create a for loop with number of iterations equal to new array's length add the entered value at index position, then continue adding the rest of the elements return new array
+How do you sort an array in binary search?
+Binary Search: Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half
