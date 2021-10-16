@@ -7,8 +7,37 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+     LinksList linksList = new LinksList();
+
+    @Test
+    public void testEmptyLinkedList() {
+        String output = linksList.toString();
+        assertEquals( "NULL", output,"Must be NULL");
     }
+    @Test
+    public void testInsertToList() {
+        linksList.insert(8);
+        String output = linksList.toString();
+        assertEquals( " { 7 } --> NULL", output,"Must be { 7 } --> Null");
+    }
+    @Test
+    public void testHeadValue() {
+        linksList.insert(7);
+        Object output = linksList.head.value;
+        assertEquals(7, output, "Must be 7");
+    }
+    @Test
+    public void testInsertMultipleToList() {
+        linksList.insert(7);
+        linksList.insert(6);
+        linksList.insert(5);
+        linksList.insert(4);
+        String output = linksList.toString();
+        String expected = " { 4 } -->  { 5 } -->  { 6 } -->  { 7 } --> NULL";
+        assertEquals( expected, output,"Must be  { 4 } -->  { 5 } -->  { 6 } -->  { 7 } --> NULL");
+    }
+
+
+
 }
+
