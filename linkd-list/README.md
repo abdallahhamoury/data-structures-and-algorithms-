@@ -3,7 +3,7 @@
 # Extend a Linked List to allow various insertion methods.
 Add new to the linked list
 ## Whiteboard Process
-![Image of Yaktocat]()
+![Image of Yaktocat](s)
 
 ## Approach & Efficiency
 1-append takes new values as it new link list with new issue
