@@ -1,6 +1,8 @@
 package linkd.list;
 
+
 import java.util.ArrayList;
+
 
 public class LinksList<T> {
     Node head;
@@ -36,6 +38,7 @@ public class LinksList<T> {
         result+="NULL";
         return result;
     }
+
     public void append(T value){
         Node pointer = head;
         Node appNode  = new Node(value);
@@ -93,4 +96,5 @@ public class LinksList<T> {
          }
          return "number that" + k + "from tail" + listlinked.get((size-1)-k);
      }
+
 }
