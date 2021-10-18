@@ -6,6 +6,17 @@ package linkd.list;
 public class Library {
 
 
+
+    public static void main(String[] args){
+
+        LinksList linksList = new LinksList();
+        System.out.println(linksList.toString());
+        linksList.insert("a");
+        linksList.insert("b");
+        linksList.insert("c");
+        System.out.println(linksList.toString());
+    }
+
      public static void main(String[] args){
 
          LinksList linksList = new LinksList();
@@ -15,4 +26,5 @@ public class Library {
          linksList.insert("c");
          System.out.println(linksList.toString());
      }
+
 }
