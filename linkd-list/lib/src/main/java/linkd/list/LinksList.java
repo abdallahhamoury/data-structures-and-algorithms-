@@ -1,5 +1,7 @@
 package linkd.list;
 
+import java.util.ArrayList;
+
 public class LinksList<T> {
     Node head;
     public LinksList(){
@@ -75,5 +77,20 @@ public class LinksList<T> {
         }
      }
 
-
+     public String kthFromEnd(int k){
+        int size = 0;
+         ArrayList<Integer> listlinked = new ArrayList<>();
+         Node current = head;
+         if (current == null){
+             return "embty";
+         }
+         while (current!=null){
+             current = current.next;
+             size++;
+         }
+         if(k > listlinked.size() || k < 0){
+             throw new IndexOutOfBoundsException();
+         }
+         return "number that" + k + "from tail" + listlinked.get((size-1)-k);
+     }
 }
