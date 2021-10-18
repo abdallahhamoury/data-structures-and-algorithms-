@@ -1,5 +1,5 @@
 # code 6
-[source code ](./code3.java)
+
 # Extend a Linked List to allow various insertion methods.
 Add new to the linked list
 ## Whiteboard Process
@@ -10,7 +10,7 @@ Add new to the linked list
 3- methods to insert a new node in linked list are discussed. ... to a node, and the new node is inserted after the given node
 
 # code 7
-[source code ](./code3.java)
+
 # Extend a Linked List to allow various insertion methods.
 This is extending an impementation problem, we take input k, which is a number repesents the place starting from tail of the linked list, and returns the value of the node at that place.
 ## Whiteboard Process
