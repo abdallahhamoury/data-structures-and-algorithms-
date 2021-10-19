@@ -9,6 +9,8 @@ Add new to the linked list
 2-insert before taking new values as it new linked list with new node
 3- methods to insert a new node in linked list are discussed. ... to a node, and the new node is inserted after the given node
 
+-------------------------------------------------------------------------------------------------------------------------
+
 # code 7
 
 # Extend a Linked List to allow various insertion methods.
@@ -17,3 +19,14 @@ This is extending an impementation problem, we take input k, which is a number r
 ![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/main/linkd-list/codech7.jpg?raw=true)
 ## Approach & Efficiency
 Attached is the java file
+
+-------------------------------------------------------------------------------------------------
+
+# code 8
+
+# Extend a Linked List to allow various insertion methods.
+For this algorithim we had to merge two linked lists.
+## Whiteboard Process
+![Image of Yaktocat]()
+## Approach & Efficiency
+The challenge was to merge two linked lists like a zipper athache selotion 
