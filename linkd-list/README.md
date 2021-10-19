@@ -25,7 +25,7 @@ Attached is the java file
 # code 8
 
 # Extend a Linked List to allow various insertion methods.
-For this algorithim we had to merge two linked lists.
+For this challenge we have to merge two linked lists together to get one linked list.
 ## Whiteboard Process
 ![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/main/linkd-list/codech8.png?raw=true)
 ## Approach & Efficiency
