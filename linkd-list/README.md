@@ -7,7 +7,7 @@ Add new to the linked list
 ## Approach & Efficiency
 1-append takes new values as it new link list with new issue
 2-insert before taking new values as it new linked list with new node
-3- methods to insert a new node in linked list are discussed. ... to a node, and the new node is inserted after the given node
+3-methods to insert a new node in linked list are discussed. ... to a node, and the new node is inserted after the given node
 
 -------------------------------------------------------------------------------------------------------------------------
 
