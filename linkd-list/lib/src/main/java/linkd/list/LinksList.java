@@ -47,7 +47,7 @@ public class LinksList<T> {
                 pointer = pointer.next;
             }
         }
-        pointer = pointer.next;
+        pointer.next = appNode;
     }
      public void insertBefore(T value,T newinsert){
         if (head.value == value){
@@ -65,7 +65,7 @@ public class LinksList<T> {
             }
         }
      }
-     public void insertAfter(Integer value,Integer newinsert){
+     public void insertAfter(T value,T newinsert){
         Node appNode = new Node(newinsert);
         Node pointer = head;
         while (pointer!=null){
@@ -93,4 +93,27 @@ public class LinksList<T> {
          }
          return "number that" + k + "from tail" + listlinked.get((size-1)-k);
      }
+
+
+    public static LinksList ziplists(LinksList one, LinksList two) {
+        Node oneCurrent = one.head;
+        Node twoCurrent = two.head;
+        Node temp1;
+        Node temp2;
+        // if list are empty
+        if (oneCurrent == null) return two;
+        if (twoCurrent == null) return one;
+        while(true){
+            temp1 = oneCurrent.next;
+            temp2 = twoCurrent.next;
+            oneCurrent.next = twoCurrent;
+            oneCurrent = temp1;
+            if (oneCurrent == null) break;
+            twoCurrent.next = oneCurrent;
+            twoCurrent = temp2;
+            if (twoCurrent == null) break;
+        }
+        return one;
+    }
+
 }

@@ -10,9 +10,25 @@ public class Library {
 
         LinksList linksList = new LinksList();
         System.out.println(linksList.toString());
-        linksList.insert("a");
-        linksList.insert("b");
         linksList.insert("c");
+        linksList.insert("b");
+        linksList.insert("a");
+        linksList.append("abdallah");
+        linksList.insertAfter("a","noor");
         System.out.println(linksList.toString());
+
+
+        System.out.println(linksList.kthFromEnd(0));
+
+        LinksList linksList1 = new LinksList();
+        linksList1.insert("c");
+        linksList1.insert("b");
+        linksList1.insert("a");
+        linksList1.append("abdallah");
+        System.out.println(linksList1);
+        System.out.println(LinksList.ziplists(linksList1,linksList));
+
     }
+
+
 }
