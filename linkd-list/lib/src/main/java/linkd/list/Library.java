@@ -6,6 +6,7 @@ package linkd.list;
 public class Library {
 
 
+
     public static void main(String[] args){
 
         LinksList linksList = new LinksList();
@@ -30,5 +31,17 @@ public class Library {
 
     }
 
+<<<<<<< HEAD
+=======
+     public static void main(String[] args){
+
+         LinksList linksList = new LinksList();
+         System.out.println(linksList.toString());
+         linksList.insert("a");
+         linksList.insert("b");
+         linksList.insert("c");
+         System.out.println(linksList.toString());
+     }
+>>>>>>> 45513a0d66f94612e45cd9929724d30e247acb9a
 
 }
