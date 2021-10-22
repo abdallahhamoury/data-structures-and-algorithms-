@@ -14,34 +14,33 @@ public class Library {
         linksList.insert("c");
         linksList.insert("b");
         linksList.insert("a");
-        linksList.append("abdallah");
-        linksList.insertAfter("a","noor");
         System.out.println(linksList.toString());
+        linksList.append("abdallah");
+        System.out.println(linksList.toString()+"         // abdallah added at the end");
+        linksList.insertAfter("a","abd");
+        System.out.println(linksList.toString()+"         // abd added after a");
+        linksList.insertBefore("a","abd");
+        System.out.println(linksList.toString()+"         // abd added befor a");
+
+        System.out.println(linksList.includse("abdallah")+"         // abdallah is in the linked list");
+        System.out.println(linksList.includse("ahmad")+"         // ahmad is not in the linked list");
 
 
         System.out.println(linksList.kthFromEnd(0));
+        System.out.println(linksList.kthFromEnd(1));
+
+
 
         LinksList linksList1 = new LinksList();
         linksList1.insert("c");
         linksList1.insert("b");
         linksList1.insert("a");
-        linksList1.append("abdallah");
+        linksList1.append("mohamad");
+        System.out.println(linksList);
         System.out.println(linksList1);
-        System.out.println(LinksList.ziplists(linksList1,linksList));
+        System.out.println(LinksList.ziplists(linksList1,linksList) + "          linksList and linksList2 merged to gother  ");
 
     }
 
-<<<<<<< HEAD
-=======
-     public static void main(String[] args){
-
-         LinksList linksList = new LinksList();
-         System.out.println(linksList.toString());
-         linksList.insert("a");
-         linksList.insert("b");
-         linksList.insert("c");
-         System.out.println(linksList.toString());
-     }
->>>>>>> 45513a0d66f94612e45cd9929724d30e247acb9a
 
 }
