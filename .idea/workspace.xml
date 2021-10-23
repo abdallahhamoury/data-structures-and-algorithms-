@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="code callenges done">
-      <change afterPath="$PROJECT_DIR$/linkd-list/lib/src/test/java/codechal6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkd-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/linkd-list/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkd-list/codech6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkd-list/codech8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/LinksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/LinksList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/lib/src/test/java/codechal6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/lib/src/test/resources/code8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/7.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\STUDENT\401Java\data-structures-and-algorithms-\linkd-list\lib\src\test\resources" />
       <recent name="C:\Users\STUDENT\401Java\data-structures-and-algorithms-\linkd-list\lib\src\test\java" />
     </key>
   </component>
