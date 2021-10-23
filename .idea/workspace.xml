@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/LinksList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/Node.java" afterDir="false" />
+    <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="code callenges done">
+      <change afterPath="$PROJECT_DIR$/linkd-list/lib/src/test/java/codechal6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/linkd-list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/codech6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/codech8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/LinksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkd-list/lib/src/main/java/linkd/list/LinksList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +29,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/linkd-list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\STUDENT\401Java\data-structures-and-algorithms-\linkd-list\lib\src\test\java" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,6 +45,30 @@
       <option name="presentableId" value="Default" />
       <updated>1634571254705</updated>
     </task>
+    <task id="LOCAL-00001" summary="code callenges done">
+      <created>1634929372973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634929372973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code callenges done" />
+    <option name="LAST_COMMIT_MESSAGE" value="code callenges done" />
   </component>
 </project>

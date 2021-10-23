@@ -112,7 +112,6 @@ public class LinksList<T> {
         Node twoCurrent = two.head;
         Node temp1;
         Node temp2;
-        // if list are empty
         if (oneCurrent == null) return two;
         if (twoCurrent == null) return one;
         while(true){
