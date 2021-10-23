@@ -27,6 +27,6 @@ Attached is the java file
 # Extend a Linked List to allow various insertion methods.
 For this challenge we have to merge two linked lists together to get one linked list.
 ## Whiteboard Process
-![Image of Yaktocat](C:\Users\STUDENT\401Java\data-structures-and-algorithms-\linkd-list\lib\src\test\resources\code8.png)
+![Image of Yaktocat](https://github.com/abdallahhamoury/data-structures-and-algorithms-/blob/main/code8.png?raw=true)
 ## Approach & Efficiency
 The challenge was to merge two linked lists like a zipper athache selotion 
