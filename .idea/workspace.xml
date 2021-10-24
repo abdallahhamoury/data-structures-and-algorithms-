@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="code callenges done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/test/java/stakandqueue/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stakandqueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stakandqueue/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stakandqueue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../songr" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
