@@ -12,3 +12,6 @@ linkd-list              | [link](/code challenge 5)
 linkd-list2  code6      | [link](linkd-list/README.md)
 linkd-list3  code7      | [link](linkd-list/README.md)
 linkd-list4  code8      | [link](linkd-list/README.md)
+code10                  | [link](C:\Users\STUDENT\401Java\data-structures-and-algorithms-\stakandqueue\app\src\main\java\stakandqueue\README.md)
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stakandqueue.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-23T16:57:52" hostname="LTUCSTUDENT-L16" time="0.029">
+  <properties/>
+  <testcase name="test1()" classname="stakandqueue.AppTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
