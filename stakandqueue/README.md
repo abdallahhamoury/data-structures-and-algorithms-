@@ -19,6 +19,7 @@ Create a Queue class that has a front property, and it has following methods: en
 4. isEmpty:Returns: Boolean indicating whether or not the stack is empty.
 
 --------------------------------------------------------------------------------------
+# lab 11
 # Challenge Summary
 new class called pseudo queue. This PseudoQueue class will utilize 2 stack instances to create and manage the queue to implement our standard queue interface enqueue & dequeue.
 
