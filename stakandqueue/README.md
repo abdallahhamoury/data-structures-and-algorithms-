@@ -19,7 +19,7 @@ Create a Queue class that has a front property, and it has following methods: en
 4. isEmpty:Returns: Boolean indicating whether or not the stack is empty.
 
 --------------------------------------------------------------------------------------
-# Challenge Summary
+# Challenge Summary code 11
 new class called pseudo queue. This PseudoQueue class will utilize 2 stack instances to create and manage the queue to implement our standard queue interface enqueue & dequeue.
 
 ## Whiteboard Process
@@ -28,3 +28,19 @@ new class called pseudo queue. This PseudoQueue class will utilize 2 stack insta
 ## Approach & Efficiency
 or enqueue method I used , so time complexity will be and didn't create new data structure so space . For dequeue method I used an if statement, so time complexity will be O(1) and didn't create new data structure
 
+-------------------------------------------------------------------------------------------------------
+# Challenge Summary
+Lab 12
+Challenge Summary
+Creating a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+
+## Whiteboard Process
+![code12](code12.png)
+
+## Approach & Efficiency
+enqueue
+Arguments: animal can be either a dog or a cat.
+dequeue
+deqDog: returns the oldest dog.
+deqCat: returns the oldest cat.
+deqAny: returns the oldest pet.
