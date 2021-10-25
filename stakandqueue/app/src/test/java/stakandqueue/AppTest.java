@@ -35,7 +35,34 @@ class AppTest {
         String messege = stackqueuepseudo.dequeue();
         assertEquals("abdallah", messege);
     }
+
+    //AnimalShelter
+    @Test  void happyPathForAnimalShelter() {
+        AnimalShelter shop = new AnimalShelter();
+        shop.enq("dog");
+        shop.enq("dog");
+        shop.enq("dog");
+        shop.enq("dog");
+        shop.enq("cat");
+        shop.enq("cat");
+        shop.enq("cat");
+        shop.enq("cat");
+        shop.enq("fish");
+        shop.enq("Emam");
+        String msg = shop.deqCat();
+
+        assertEquals(" oldest poor cat>  cat", msg);
+    }
+    @Test  void edgeCaseForAnimalShelter() {
+        AnimalShelter shop = new AnimalShelter();
+        shop.enq("fish");
+        String msg = shop.deqCat();
+        System.out.println(shop.deqCat());
+        assertEquals(" oldest poor cat>  Queue is empty", msg);
     }
 
 
 }
+
+
+
