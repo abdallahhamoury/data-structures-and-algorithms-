@@ -61,8 +61,25 @@ class AppTest {
         assertEquals(" oldest poor cat>  Queue is empty", msg);
     }
 
+    @Test void testbrecets(){
+        StacQueueBrackets newObj=new StacQueueBrackets();
+        String brackets="([])";
+        String brackets2="([]";
+        if (newObj.checkStackQueueBrackets(brackets)){
+            System.out.println("Balanced");
+        }else System.out.println("Not Balanced");
+        if (newObj.checkStackQueueBrackets(brackets2)){
+            System.out.println("Balanced");
+        }else System.out.println("Not Balanced");
+        assertTrue(newObj.checkStackQueueBrackets(brackets));
+        assertFalse(newObj.checkStackQueueBrackets(brackets2));
+    }
 
-}
+
+ }
+
+
+
 
 
 

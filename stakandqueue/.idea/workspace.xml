@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec1c4b3-e3c5-4e43-aca0-78b1b0646350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/StacQueueBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code13.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/stakandqueue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/stakandqueue/AppTest.java" afterDir="false" />
     </list>
