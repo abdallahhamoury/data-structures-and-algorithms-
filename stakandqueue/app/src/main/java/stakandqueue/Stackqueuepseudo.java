@@ -6,20 +6,20 @@ public class Stackqueuepseudo {
 
     public void enqueue(String x)
     {
-           while (!stackOne.isEmppty())
+           while (!stackOne.isEmpty())
         {
             stackTwo.push(stackOne.pop());
         }
            stackOne.push(x);
 
-         while (!stackTwo.isEmppty())
+         while (!stackTwo.isEmpty())
          {
             stackOne.push(stackTwo.pop());
                }
          }
         public   String dequeue()
         {
-        if (stackOne.isEmppty())
+        if (stackOne.isEmpty())
         {
             System.out.println("empty");
         }

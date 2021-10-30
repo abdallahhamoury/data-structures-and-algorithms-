@@ -10,24 +10,30 @@ public class App {
 
         Stack<Integer> newStack=new Stack<>();{
             newStack.push(1);
+            newStack.push(2);
+
+            System.out.println(newStack.pop().value); // 2
+            System.out.println(newStack.isEmpty()); // false
+
+            System.out.println(newStack.toString());
+
+            System.out.println(newStack.pop().value); // 1
+
+            System.out.println(newStack.isEmpty()); // true
 
 
-
-            Node newNode = newStack.pop();
-            System.out.println(newNode.value);
-            System.out.println(newStack.isEmppty());
-
-
-
-            Queue <Integer>  newqueue= new Queue<>();
-
+//
+            Queue <Integer>  newqueue= new Queue<>(); // create new Queue
+            newqueue.enqueue(1);
+            System.out.println(newqueue.dequeue());
             System.out.println(newqueue.isEmpty());
-            System.out.println(newqueue.toString());
+            newqueue.enqueue(2);
+            System.out.println(newqueue.isEmpty());
 
-            Stackqueuepseudo stackqueuepseudo =new Stackqueuepseudo();
-            stackqueuepseudo.enqueue("abdallah");
-            stackqueuepseudo.enqueue("mohamed");
-            System.out.println(stackqueuepseudo.dequeue());
+//            Stackqueuepseudo stackqueuepseudo =new Stackqueuepseudo();
+//            stackqueuepseudo.enqueue("abdallah");
+//            stackqueuepseudo.enqueue("mohamed");
+//            System.out.println(stackqueuepseudo.dequeue());
         }
     }
 }

@@ -16,22 +16,28 @@ public class Queue <T>{
 
         if(front ==null){
             front=newNode;
+            rear=newNode;
         }else {
             rear.next= newNode;
         }
         rear=newNode;
     }
 
-    public Node dequeue (){
-        if(front ==rear){
-            rear =null;
-            System.out.println(rear);
+    public T dequeue (){
+        if (isEmpty())
+        {
+            return  null;
         }
-        Node temp = front;
+
+        Node <T> temp = front;
         front = front.next;
+        if (front == null) {
+            rear = null;
+        }
         temp.next=null;
-        return temp;
+        return (T) temp.value;
     }
+
     public T peek(){
         return front.value;
     }
