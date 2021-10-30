@@ -7,18 +7,61 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void test1(){
-        Stack<Integer> test = new Stack<>();
-        test.push(1);
-        test.push(2);
-        assertEquals(2,test.top.value);
-        assertEquals(1,test.top.next.value);
+    @Test void testadd2values() {
+        Stack <Integer> test1=new Stack<>();
+        test1.push(1);
+        test1.push(2);
+        assertEquals(2,test1.top.value);
+        assertEquals(1,test1.top.next.value);
     }
-    @Test void testpop(){
-        Stack<Integer> test= new Stack<>();
-        test.push(1);
-        Node<Integer> returnNode=test.pop();
+
+    @Test void testpop() {
+        Stack <Integer> test1=new Stack<>();
+        test1.push(1);
+
+        Node <Integer> returnNode= test1.pop();
+
         assertEquals(1,returnNode.value);
+        //assertEquals(1,test1.top.next.value);
+    }
+
+    @Test void emptyStack() {
+        Stack <Integer> test1=new Stack<>();
+        test1.push(1);
+        test1.push(2);
+        test1.pop();
+        Node newNode=  test1.pop();
+        assertEquals(true,test1.isEmpty());
+        //assertEquals(1,test1.top.next.value);
+    }
+
+    @Test void enqueuetest() {
+        Queue <Integer> test1=new Queue<>();
+        test1.enqueue(1);
+        test1.enqueue(2);
+        assertEquals(1,test1.front.value);
+        assertEquals(2,test1.front.next.value);
+    }
+
+    @Test void dequeuetest() {
+        Queue <Integer> test1=new Queue<>();
+        test1.enqueue(1);
+        test1.enqueue(2);
+        test1.dequeue();
+        test1.dequeue();
+        System.out.println(test1.front);
+        System.out.println(test1.isEmpty());
+        assertEquals(true,test1.isEmpty());
+
+    }
+
+    @Test void callingdequueinempty() {
+        Queue <Integer> test1=new Queue<>();
+
+        test1.dequeue();
+        System.out.println(test1.front);
+        System.out.println(test1.isEmpty());
+        assertEquals(true,test1.isEmpty());
 
     }
 
