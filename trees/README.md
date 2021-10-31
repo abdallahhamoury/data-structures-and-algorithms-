@@ -1,3 +1,4 @@
+# code 15
 ## Features
 
 # Node
@@ -13,3 +14,15 @@
    Create a Binary Search Tree class This class should be a sub-class (or your languages equivalent) of the Binary Tree Class, with the following additional methods:
    Add Arguments: value Return: nothing Adds a new node with that value in the correct location in the binary search tree.
    Contains Argument: value Returns: boolean indicating whether or not the value is in the tree at least once.
+   ------------------------------------------------------------------------------------------
+# code 16
+# Challenge Summary
+Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Whiteboard Process
+![code16](code16.jpg)
+
+## Approach & Efficiency
+Space complexity O(1)  while time complexity is O(1) 
+## Solution
+To run and test maxValue method, one can either create new tree and call the method on that tree in App.java file, or run pre-written tests in AppTest.java file.
