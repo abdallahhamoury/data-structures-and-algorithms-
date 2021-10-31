@@ -8,18 +8,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
-       @Test  void appHasAGreeting() {
+    @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
-       @Test  void testSingleRoot(){
+    @Test void testSingleRoot(){
         BinarySearchTree<Integer> firstObj=new BinarySearchTree<>();
         firstObj.root=new Node(4);
         //firstObj.root(new Node(5));
         assertEquals(4,firstObj.root.nodeValue);
     }
-        @Test  void testadd(){
+    @Test void testadd(){
         BinarySearchTree<Integer> firstObj=new BinarySearchTree<>();
         firstObj.addFuction(11);
         firstObj.addFuction(15);
@@ -28,5 +30,17 @@ class AppTest {
         assertEquals(true,firstObj.containsFunction(20));
         assertEquals(true,firstObj.containsFunction(15));
         assertEquals(false,firstObj.containsFunction(22));
+    }
+    @Test void code16(){
+        BinaryTree<Integer> secObj=new BinaryTree<>();
+        secObj.root = new Node(2);
+        secObj.root.left = new Node(7);
+        secObj.root.right = new Node(5);
+        secObj.root.left.right = new Node(6);
+        secObj.root.left.right.left = new Node(1);
+        secObj.root.left.right.right = new Node(11);
+        secObj.root.right.right = new Node(9);
+        secObj.root.right.right.left = new Node(4);
+        assertEquals(11,secObj.maxNumber(secObj.root));
     }
 }
