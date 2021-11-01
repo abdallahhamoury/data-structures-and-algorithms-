@@ -26,3 +26,15 @@ Find the maximum value stored in the tree. You can assume that the values stored
 Space complexity O(1)  while time complexity is O(1) 
 ## Solution
 To run and test maxValue method, one can either create new tree and call the method on that tree in App.java file, or run pre-written tests in AppTest.java file.
+--------------------------------------------------------------------------------------
+# code 17
+# Challenge Summary
+Write a function called breadth first, that traverse the input tree using a Breadth-first approach.
+
+## Whiteboard Process
+![code17](code17.jpg)
+
+## Approach & Efficiency
+Space complexity O(1) , while time complexity is O(1) .
+## Solution
+To run and test maxValue method, one can either create new tree and call the method on that tree in App.java file, or run pre-written tests in AppTest.java file.

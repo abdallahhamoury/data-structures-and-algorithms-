@@ -1,10 +1,22 @@
 package trees;
 import java.util.ArrayList;
-public class BinaryTree <t>{
+import java.util.List;
+public class BinaryTree <t> {
     public ArrayList<t>preOrder=new ArrayList<>();
     public ArrayList<t>inOrder=new ArrayList<>();
     public ArrayList<t>postOrder=new ArrayList<>();
     public Node root;
+    //    public BinaryTree(t value) {
+//        this.root = new Node<>(value);
+//    }
+//    public BinaryTree() {
+//    }
+//    public Node<t> getRoot() {
+//        return root;
+//    }
+//    public void setRoot(Node<t> root) {
+//        this.root = root;
+//    }
     public ArrayList <t> preorderFunction(Node <t> rootNode){
         if (rootNode!=null){
             System.out.println(rootNode.nodeValue);
@@ -41,7 +53,8 @@ public class BinaryTree <t>{
         if(rootNode==null) {
             return Integer.MIN_VALUE;
         }
-
+        //throw new Exception("empyt Tree");
+        //return -1;
         int maxNum=rootNode.nodeValue;
         int maxNumLeft= maxNumber(rootNode.left);
         int maxNumRight=maxNumber(rootNode.right);
@@ -49,6 +62,9 @@ public class BinaryTree <t>{
             maxNum=maxNumLeft;}
         if(maxNumRight>maxNum){
             maxNum=maxNumRight;}
+//       if(rootNode.left!=null);
+//       maxNum=Math.max(maxNum,maxB(rootNode.left));
+        //System.out.println(maxNum);
         return maxNum;
     }
 }
