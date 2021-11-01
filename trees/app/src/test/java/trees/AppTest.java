@@ -4,11 +4,8 @@
 package trees;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import java.util.ArrayList;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
     @Test void appHasAGreeting() {
@@ -21,6 +18,16 @@ class AppTest {
         //firstObj.root(new Node(5));
         assertEquals(4,firstObj.root.nodeValue);
     }
+//    @Test Student void testTraversal(){
+//        BinarySearchTree<Integer> firstObj=new BinarySearchTree<>();
+//       firstObj.root=new Node(4);
+//       firstObj.root.left=new Node(2);
+//        firstObj.root.right=new Node(9);
+//      //assertEquals(2,firstObj.root.left.nodeValue);
+//        //assertEquals(9,firstObj.root.right.nodeValue);
+//       assertEquals("[4,2,9]",firstObj.inOrder);
+//
+//    }
     @Test void testadd(){
         BinarySearchTree<Integer> firstObj=new BinarySearchTree<>();
         firstObj.addFuction(11);
@@ -42,5 +49,19 @@ class AppTest {
         secObj.root.right.right = new Node(9);
         secObj.root.right.right.left = new Node(4);
         assertEquals(11,secObj.maxNumber(secObj.root));
+    }
+    @Test void code17(){
+        BinarySearchTree<Integer>newTree =new BinarySearchTree<>();
+        newTree.addFuction(1);
+        newTree.addFuction(2);
+        newTree.addFuction(3);
+        newTree.addFuction(4);
+        newTree.addFuction(5);
+//    int[] arrayList= new int[5];
+//    arrayList= new int[]{1, 2, 3, 4, 5};
+        String res="[1, 2, 3, 4, 5]";
+        //System.out.println(newTree.traversalFunction(newTree));
+        assertEquals(res,newTree.traversalFunction(newTree));
+        ///test Didnot work
     }
 }
