@@ -16,5 +16,10 @@ code10                  | [link](C:\Users\STUDENT\401Java\data-structures-and-al
 code11                  | [link](stakandqueue)
 code12                  | [link](stakandqueue)
 code13                  | [link](stakandqueue)
+code15                  | [link](trees)
+code16                  | [link](trees)
+code17                  | [link](trees)
+code18                  | [link](trees)
+
 
 
