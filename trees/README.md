@@ -38,10 +38,10 @@ scape : O(n)
 Write a function called breadth first
 Return: list of all values in the tree, in the order they were encountered Traverse the input tree using a Breadth-first approach.
 ## Whiteboard Process
-![max-tree](./img/breadth-first.PNG)
+![max-tree](code17.jpg)
 ## Approach & Efficiency
-time : O(n)
-scape : O(W)
+time : O(1)
+scape : O(1)
 # Challenge Summary breadth-first
 Write a fizzBuzzTree method that takes a k-ary tree and Returns a new tree with the same structure as the original, but the values modified as follows:
 - If the value is divisible by 3, replace the value with “Fizz”
@@ -49,7 +49,12 @@ Write a fizzBuzzTree method that takes a k-ary tree and Returns a new tree with 
 - If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
 - If the value is not divisible by 3 or 5, simply turn the number into a String.
 ## Whiteboard Process
-![max-tree](./img/fizz-buzz-k-tree.PNG)
+![max-tree](codefuzzbuzz.jpg)
 ## Approach & Efficiency
-time : O(n^)
-scape : O(W)
+time : O(1)
+scape : O(1)
+
+## Solution
+
+input [22,15,20,65,30,555,18]
+output Fizz FizzBuzz Buzz Buzz FizzBuzz FizzBuzz Fizz 
