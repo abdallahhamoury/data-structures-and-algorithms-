@@ -23,15 +23,13 @@ space:o(1) time :o(1)
    dequeue Arguments: none Returns: the value from node from the front of the queue Removes the node from the front of the queue Should raise exception when called on empty queue
    peek Arguments: none Returns: Value of the node located at the front of the queue Should raise exception when called on empty stack
    is empty Arguments: none Returns: Boolean indicating whether or not the queue is empty
-
-
---------------------------------------------------------------------------------------
-Code Challenge: Class 11
 Feature Tasks
 Create a new class called pseudo queue. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), Internally, utilize 2 Stack instances to create and manage the queue
 Methods:
 enqueue Arguments: value Inserts value into the PseudoQueue, using a first-in, first-out approach.
-dequeue Arguments: none Extracts a value from the PseudoQueue, using a first-in, first-out approach.h
+dequeue Arguments: none Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+new class called pseudo queue. This PseudoQueue class will utilize 2 stack instances to create and manage the queue to implement our standard queue interface enqueue & dequeue.
+
 ## Whiteboard Process
 ![code11](codechal11.jpg)
 
@@ -57,3 +55,13 @@ dequeue
 deqDog: returns the oldest dog.
 deqCat: returns the oldest cat.
 deqAny: returns the oldest pet.
+
+-----------------------------------------------------------------------------------------------------
+##Code Challenge: Class 13
+Feature Tasks 1.Write a function called validate brackets
+Arguments: string
+Return: boolean
+Implement the following method:
+Create function called validate brackets
+representing whether or not the brackets in the string are balanced
+![code13](code13.jpg)

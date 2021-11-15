@@ -22,3 +22,17 @@ tree-fizz-buzz          | [link](trees)
 Insertion Sort          | [link](insertsort)
 Mearg Sort              | [link](insertsort)
          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
