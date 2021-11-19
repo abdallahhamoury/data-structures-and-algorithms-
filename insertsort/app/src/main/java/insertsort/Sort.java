@@ -12,6 +12,7 @@ public class Sort {
                 arr[j+1]=temp;
             }
 
-        }return arr;
+        }
+        return arr;
     }
 }
