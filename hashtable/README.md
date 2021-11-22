@@ -21,3 +21,24 @@ Challenge Type: New Implementation
 - **hash()**
   Arguments: key
   Returns: Index in the collection for that key
+# Repeated Word
+## Challenge Summary
+Write a function called repeated word that finds the first word to occur more than once in a string.
+## Whiteboard Process
+![fff](code31.jpg)
+## Approach & Efficiency
+lopp:
+Time Approach : O(N)
+Space : O(N)
+
+# tree intersection
+## Challenge Summary
+Find all values found to be in 2 binary trees
+- Write a function called tree intersection
+- Arguments: two binary trees
+- Return: array
+## Whiteboard Process
+![repeated-word](tree.png)
+## Approach & Efficiency
+**Time Approach** : O(N) - for loop 2 separate times.
+**Space Approach** : O(N) - create hash map and arrayList.

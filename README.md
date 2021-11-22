@@ -1,8 +1,4 @@
 
-
-
-
-
 code class              | link
 ------------            | -------------
 array-reverse           | [link](code1)
