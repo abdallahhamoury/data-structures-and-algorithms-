@@ -15,4 +15,5 @@ code8                   | [link](linkd-list/README.md)
 code10                  | [link](C:\Users\STUDENT\401Java\data-structures-and-algorithms-\stakandqueue\app\src\main\java\stakandqueue\README.md)
 code11                  | [link](stakandqueue)
 code12                  | [link](stakandqueue)
+hashtable               | [link](hashtable)
 

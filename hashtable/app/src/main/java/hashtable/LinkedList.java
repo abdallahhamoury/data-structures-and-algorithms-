@@ -1,9 +1,9 @@
 package hashtable;
-public class LinkedList<String,V> {
-    Node<String,V> head;
+public class LinkedList<V> {
+    Node<V> head;
     public java.lang.String toString(){
         java.lang.String result = " [ ";
-        Node<String,V> current = head;
+        Node<V> current = head;
         while (current != null) {
             result  += "{"+ current.key+ ":" + current.value + "} ";
             current = current.next;
