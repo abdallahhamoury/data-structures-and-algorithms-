@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eec1c4b3-e3c5-4e43-aca0-78b1b0646350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eec1c4b3-e3c5-4e43-aca0-78b1b0646350" name="Changes" comment=""
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stakandqueue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Stackqueuepseudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stakandqueue/Stackqueuepseudo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/stakandqueue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/stakandqueue/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,27 +43,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\STUDENT\401Java\data-structures-and-algorithms-\stakandqueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stakandqueue.App" />
-      <module name="stakandqueue.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stakandqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.AppTest.errorTestForStackedQueue">
     <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -82,12 +72,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AppTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppTest.callingdequueinempty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;stakandqueue.AppTest.test1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stakandqueue.AppTest.callingdequueinempty&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,11 +93,68 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AppTest.dequeuetest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;stakandqueue.AppTest.dequeuetest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.errorTestForStackedQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;stakandqueue.AppTest.errorTestForStackedQueue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest,errorTestForStackedQueue and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stakandqueue.app.test" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="stakandqueue.AppTest,errorTestForStackedQueue" />
+        <pattern testClass="stakandqueue.AppTest,happyPathForStackedQueue" />
+        <pattern testClass="stakandqueue.AppTest,happyPathForAnimalShelter" />
+        <pattern testClass="stakandqueue.AppTest,edgeCaseForAnimalShelter" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AppTest.test1" />
+        <item itemvalue="Gradle.AppTest.errorTestForStackedQueue" />
+        <item itemvalue="JUnit.AppTest,errorTestForStackedQueue and 3 more" />
+        <item itemvalue="Gradle.AppTest.callingdequueinempty" />
+        <item itemvalue="Gradle.AppTest.dequeuetest" />
         <item itemvalue="Gradle.AppTest" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -134,4 +181,5 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+
 </project>

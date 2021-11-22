@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="code callenges" />
+    <list default="true" id="5a6486b3-de3a-46c3-848a-66bee2b354ba" name="Changes" comment="code callenges">
+
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/stakandqueue/app/src/main/java/stakandqueue/StacQueueBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stakandqueue/code13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stakandqueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stakandqueue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stakandqueue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stakandqueue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stakandqueue/app/src/test/java/stakandqueue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stakandqueue/app/src/test/java/stakandqueue/AppTest.java" afterDir="false" />
+
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +33,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-fundamentals" />
+
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trees" />
+
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635107573300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code callenges">
+      <created>1635184843882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635184843882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

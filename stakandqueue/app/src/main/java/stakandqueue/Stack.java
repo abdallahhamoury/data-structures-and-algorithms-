@@ -21,7 +21,7 @@ public class Stack<T> {
         current.next=null;
         return current;
     }
-    public boolean isEmppty(){
+    public boolean isEmpty(){
         if(top ==null){
             return true;
         }else {
@@ -31,11 +31,13 @@ public class Stack<T> {
     public T peek(){
         return top.value;
     }
+
     public String toString (){
         Node current=top;
         String result="";
         while (current !=null){
             result +="{ "+current.value +" } ->";
+            current=current.next;
         }
         result+="Null";
         return result;
