@@ -20,10 +20,10 @@ public class HashTable<V> {
     public V get(String key) {
         int idx = hash(key);
         if (hashTable[idx] == null) return null;
-        if (key == hashTable[idx].head.key) return (V) hashTable[idx].head.value;
+        if (key.equals(hashTable[idx].head.key)) return (V) hashTable[idx].head.value;
         Node<V> current = hashTable[idx].head;
         while (current != null) {
-            if (key == current.key) return current.value;
+            if (key.equals(current.key)) return current.value;
             current = current.next;
         }
         return null;
@@ -31,10 +31,10 @@ public class HashTable<V> {
     public boolean contains(String key) {
         int idx = hash(key);
         if (hashTable[idx] == null) return false;
-        if (key == hashTable[idx].head.key) return true;
+        if (key.equals(hashTable[idx].head.key)) return true;
         Node<V> current = hashTable[idx].head;
         while (current != null) {
-            if (key == current.key) return true;
+            if (key.equals(current.key)) return true;
             current = current.next;
         }
         return false;
