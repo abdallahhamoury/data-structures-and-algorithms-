@@ -7,8 +7,21 @@ A graph is a non-linear data structure that can be looked at as a collection of 
 ## Challenge
 Implement your own Graph. The graph should be represented as an adjacency list, and should include the required methods.
 ## Approach & Efficiency
-**Time** : O(1)
-**Space** : O(N)
+**add node**
+- **Time** : O(1), no loops.
+- **Space** : O(n), create node with children's list.
+  **add edge**
+- **Time** : O(1), no loops.
+- **Space** : O(1), no extra spaces.
+  **get nodes**
+- **Time** : O(1), no loops.
+- **Space** : O(1), no extra spaces.
+  **get neighbors**
+- **Time** : O(1), no loops.
+- **Space** : O(1), no extra spaces.
+  **size**
+- **Time** : O(1), no loops.
+- **Space** : O(1), no extra spaces.
 ## API
 **add node**
 - Arguments: value
@@ -27,3 +40,25 @@ Implement your own Graph. The graph should be represented as an adjacency list, 
   **size**
 - Arguments: none
 - Returns the total number of nodes in the graph
+
+## Graphs Breadth-first
+### Challenge
+write a method to traverse a graph using breadth-first
+- input -> Node
+- output -> A collection of nodes in the order they were visited.
+### Whiteboard Process
+![repeated-word](code36.PNG)
+### Approach & Efficiency
+- time : O(n^2) - nested loop
+- scape : O(n) - create new list and Set.
+## business trip
+### Challenge
+Write a function called business trip
+Determine whether the trip is possible with direct flights, and how much it would cost.
+- input -> graph, array of city names.
+- output -> cost or null.
+### Whiteboard Process
+![repeated-word](codeee.jpg)
+### Approach & Efficiency
+- time : O(n) - 1 for loop.
+- scape : O(1) - no extra spaces.
