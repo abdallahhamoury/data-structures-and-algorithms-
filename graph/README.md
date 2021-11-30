@@ -62,3 +62,14 @@ Determine whether the trip is possible with direct flights, and how much it woul
 ### Approach & Efficiency
 - time : O(n) - 1 for loop.
 - scape : O(1) - no extra spaces.
+
+## Graphs Breadth-first
+### Challenge
+write a method to traverse a graph using breadth-first
+- input -> Node
+- output -> A collection of nodes in the order they were visited.
+### Whiteboard Process
+![repeated-word](code38.jpg)
+### Approach & Efficiency
+- time : O(n^2) - nested loop
+- scape : O(n) - create new list and Set.
