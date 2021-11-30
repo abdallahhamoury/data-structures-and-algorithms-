@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
-    @Test 
+    @Test
     void hashTable() {
         // Adding a key/value to your hashtable results in the value being in the data structure
         HashTable testTable = new HashTable();
